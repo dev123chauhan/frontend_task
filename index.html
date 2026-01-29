@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header with Full Dropdown Search</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-bg"></div>
+      <div class="header-content">
+        <div class="logo">NEXUS</div>
+
+        <nav class="nav">
+          <a href="#" class="nav-link">Products</a>
+          <a href="#" class="nav-link">Solutions</a>
+          <a href="#" class="nav-link">Resources</a>
+          <a href="#" class="nav-link">Company</a>
+        </nav>
+
+        <div class="search-container" id="searchContainer">
+          <div class="search-icon-btn" id="searchBtn">
+            <svg
+              class="search-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-dropdown" id="searchDropdown">
+        <div class="search-dropdown-content">
+          <div class="dropdown-search-input-wrapper">
+            <svg
+              class="dropdown-search-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input
+              type="text"
+              class="dropdown-search-input"
+              placeholder="What are you looking for?"
+              id="searchInput"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="search-overlay" id="searchOverlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
