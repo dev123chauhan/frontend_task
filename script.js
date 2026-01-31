@@ -3,7 +3,6 @@ const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
 const closeSearch = document.getElementById("closeSearch");
 const searchOverlay = document.getElementById("searchOverlay");
-
 const searchDropdown = document.getElementById("searchDropdown");
 let isInsideSearch = false;
 
